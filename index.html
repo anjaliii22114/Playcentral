@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Playcentral – Game Guides, Genres, Family Play and Safe Gaming Tips</title>
+<meta name="description" content="Playcentral is an information hub about games: how to start gaming, understanding genres, board and card games, healthy play habits and online safety for families.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.YOURDOMAIN.com/">
+<meta property="og:title" content="Playcentral – Game Guides, Genres, Family Play and Safe Gaming Tips">
+<meta property="og:description" content="Beginner-friendly guides to video games, board games, healthy play and online safety.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.YOURDOMAIN.com/">
+
+<!-- ===== GOOGLE ADSENSE CODE: yahan apna AdSense script paste karein ===== -->
+<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+<!-- ======================================================================= -->
+
+<!-- Google Analytics (optional): yahan GA4 code paste karein -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Playcentral","url":"https://www.YOURDOMAIN.com/","description":"Game guides, genres, family play and safe gaming tips."}
+</script>
+
+<style>
+:root{
+  --ink:#1E1B4B; --bg:#F5F4FF; --paper:#FFFFFF; --violet:#5B3FE0; --coral:#FF5C5C;
+  --mint:#18B58A; --sun:#FFC83D; --muted:#5E5B85; --line:#DEDBF5;
+  --head:'Baloo 2','Trebuchet MS',Arial,sans-serif;
+  --body:'Nunito',Verdana,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{--ink:#ECEBFF; --bg:#121030; --paper:#1D1A4A; --muted:#B0ADDB; --line:#35317A; --violet:#9C88FF; --mint:#3DDBB0;}
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);font-size:1.1rem;line-height:1.75;color:var(--ink);background:var(--bg)}
+a{color:var(--violet)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.wrap{width:100%;max-width:1200px;margin:0 auto;padding:0 24px}
+
+/* header */
+header{background:var(--paper);border-bottom:3px solid var(--violet);position:sticky;top:0;z-index:10}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:74px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);font-family:var(--head);font-weight:800;font-size:1.8rem}
+.logo span{color:var(--coral)}
+nav ul{list-style:none;display:flex;gap:20px;flex-wrap:wrap}
+nav a{font-family:var(--head);font-weight:600;font-size:1.05rem;text-decoration:none;color:var(--ink)}
+nav a:hover{color:var(--coral)}
+
+/* hero */
+.hero{background:var(--violet);color:#fff;padding:84px 0 70px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-80px;top:-80px;width:340px;height:340px;border-radius:50%;background:var(--coral);opacity:.35}
+.hero .wrap{position:relative;z-index:1}
+.hero h1{font-family:var(--head);font-weight:800;font-size:clamp(2.2rem,5.5vw,4.1rem);line-height:1.08;max-width:15ch}
+.hero p{max-width:60ch;margin-top:20px;color:#E7E2FF}
+.btn{display:inline-block;margin-top:28px;background:var(--sun);color:#1E1B4B;font-family:var(--head);font-weight:800;padding:13px 30px;border-radius:14px;text-decoration:none;box-shadow:0 5px 0 #C99A18}
+.btn:hover{background:#FFD65E}
+.pills{display:flex;gap:10px;flex-wrap:wrap;margin-top:32px}
+.pills a{font-family:var(--head);font-size:.95rem;color:#fff;background:rgba(255,255,255,.15);padding:6px 16px;border-radius:999px;text-decoration:none}
+.pills a:hover{background:rgba(255,255,255,.3)}
+
+/* layout */
+main{padding:56px 0}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:48px}
+article.section{margin-bottom:56px;scroll-margin-top:96px}
+h2{font-family:var(--head);font-size:clamp(1.7rem,3vw,2.3rem);line-height:1.2;margin-bottom:16px;display:flex;align-items:center;gap:12px}
+h2::before{content:"";flex:0 0 14px;height:14px;border-radius:4px;background:var(--coral);transform:rotate(45deg)}
+article.section:nth-of-type(3n+2) h2::before{background:var(--mint)}
+article.section:nth-of-type(3n) h2::before{background:var(--sun)}
+h3{font-family:var(--head);font-size:1.3rem;margin:24px 0 6px}
+p{margin-bottom:16px}
+ul.list,ol.list{margin:0 0 18px 24px}
+ul.list li,ol.list li{margin-bottom:8px}
+.box{background:var(--paper);border:2px solid var(--line);border-radius:16px;padding:20px 24px;margin:22px 0}
+.tip{border-color:var(--sun)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:18px 0}
+.cards .box{margin:0}
+.cards h3{margin-top:0}
+table{width:100%;border-collapse:collapse;margin:18px 0;font-size:1rem}
+.scroll{overflow-x:auto}
+th,td{text-align:left;padding:10px 14px;border-bottom:2px solid var(--line)}
+th{font-family:var(--head);background:var(--paper)}
+
+/* ads: clearly labelled, never disguised as content */
+.ad{margin:36px 0;text-align:center}
+.ad small{display:block;font-family:var(--head);font-size:.8rem;color:var(--muted);margin-bottom:6px}
+.ad .slot{min-height:120px;border:2px dashed var(--line);display:flex;align-items:center;justify-content:center;color:var(--muted);font-family:var(--head);border-radius:12px}
+
+/* sidebar */
+aside .box h3{margin-top:0}
+aside ul{list-style:none}
+aside li{margin-bottom:10px;font-family:var(--head);font-size:1.05rem}
+.sticky{position:sticky;top:100px}
+
+/* faq */
+details{background:var(--paper);border:2px solid var(--line);border-radius:14px;padding:14px 20px;margin-bottom:12px}
+summary{font-family:var(--head);font-weight:600;font-size:1.1rem;cursor:pointer}
+details p{margin:12px 0 0}
+
+/* disclaimer */
+.disclaimer{background:var(--paper);border:3px solid var(--sun);border-radius:18px;padding:26px 28px;font-size:1rem}
+.disclaimer h2::before{display:none}
+
+/* footer */
+footer{background:var(--ink);color:#D6D3F5;padding:48px 0 28px;font-size:1rem}
+@media (prefers-color-scheme: dark){footer{background:#0A0922}}
+.fgrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:32px}
+footer h4{font-family:var(--head);color:#fff;font-size:1.15rem;margin-bottom:12px}
+footer a{color:#D6D3F5;text-decoration:none}
+footer a:hover{color:var(--sun)}
+footer ul{list-style:none}
+footer li{margin-bottom:8px}
+.copy{border-top:1px solid #3B3780;margin-top:32px;padding-top:20px;text-align:center;font-size:.9rem}
+
+@media (max-width:900px){
+  .layout{grid-template-columns:1fr}
+  .sticky{position:static}
+  .fgrid{grid-template-columns:1fr}
+  header{position:static}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="/" aria-label="Playcentral home">
+      <svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true">
+        <rect x="4" y="12" width="56" height="40" rx="18" fill="#5B3FE0"/>
+        <circle cx="32" cy="32" r="13" fill="#FFC83D"/>
+        <path d="M28 25l12 7-12 7z" fill="#1E1B4B"/>
+        <circle cx="14" cy="26" r="3" fill="#FF5C5C"/><circle cx="14" cy="38" r="3" fill="#18B58A"/>
+        <circle cx="50" cy="26" r="3" fill="#18B58A"/><circle cx="50" cy="38" r="3" fill="#FF5C5C"/>
+      </svg>
+      Play<span>central</span>
+    </a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#start">Getting Started</a></li>
+        <li><a href="#genres">Game Genres</a></li>
+        <li><a href="#tabletop">Board &amp; Card Games</a></li>
+        <li><a href="#healthy">Healthy Play</a></li>
+        <li><a href="#safety">Online Safety</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Your central place to understand play.</h1>
+    <p>Playcentral is an independent information site about games. We explain how to get started, what the different game types are, how to play board and card games, how to keep play healthy and how families can stay safe online. Everything is written in plain language, for beginners and parents alike.</p>
+    <a class="btn" href="#start">Start here</a>
+    <div class="pills">
+      <a href="#genres">Action, puzzle, strategy</a>
+      <a href="#tabletop">Chess, ludo, family nights</a>
+      <a href="#healthy">Screen-time habits</a>
+      <a href="#safety">Parent guide</a>
+    </div>
+  </div>
+</section>
+
+<main>
+<div class="wrap layout">
+
+<div class="content">
+
+  <article class="section" id="start">
+    <h2>Getting started with games</h2>
+    <p>Games are one of the most popular forms of entertainment in the world, and they come in many shapes: mobile games you play for five minutes, console and PC games with long stories, and tabletop games played around a table. Starting well means choosing something that fits your time, budget and taste.</p>
+    <h3>Pick a platform</h3>
+    <div class="scroll">
+    <table>
+      <thead><tr><th>Platform</th><th>Good for</th><th>Things to consider</th></tr></thead>
+      <tbody>
+        <tr><td>Mobile phone</td><td>Quick sessions, puzzle and casual games</td><td>Watch for in-app purchases and battery use</td></tr>
+        <tr><td>Console</td><td>Couch play, family and sports games</td><td>Upfront cost of the device and games</td></tr>
+        <tr><td>PC</td><td>Strategy, simulation, indie games</td><td>Hardware requirements differ per game</td></tr>
+        <tr><td>Tabletop</td><td>Screen-free time with friends and family</td><td>Needs other players and a flat surface</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <h3>Check the age rating</h3>
+    <p>Most regions use rating systems such as PEGI or ESRB. The label tells you the suggested minimum age and why, for example violence or online interaction. Reading it takes ten seconds and avoids unpleasant surprises, especially when buying for children.</p>
+    <div class="box tip"><strong>Beginner tip:</strong> try demos, free trials or a friend's copy before buying. Play the tutorial fully, because it teaches controls that the rest of the game assumes you know.</div>
+  </article>
+
+  <div class="ad" aria-label="Advertisement">
+    <small>Advertisement</small>
+    <!-- ===== ADSENSE AD UNIT 1: yahan apna ad code paste karein ===== -->
+    <!--
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="1111111111" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    -->
+    <div class="slot">Ad space</div>
+  </div>
+
+  <article class="section" id="genres">
+    <h2>Video game genres explained</h2>
+    <p>A genre describes how a game plays, not how it looks. Knowing the main ones makes it much easier to find games you will enjoy.</p>
+    <div class="cards">
+      <div class="box"><h3>Action and adventure</h3><p>Fast movement, combat and exploration. These games reward quick reactions and learning enemy patterns.</p></div>
+      <div class="box"><h3>Puzzle</h3><p>Logic, pattern matching and planning. Many are short, calm and suitable for all ages.</p></div>
+      <div class="box"><h3>Strategy</h3><p>You manage resources, units or cities and plan several moves ahead. Patience matters more than speed.</p></div>
+      <div class="box"><h3>Role-playing (RPG)</h3><p>You build a character, follow a story and make choices. Sessions can be long, so check how much time you have.</p></div>
+      <div class="box"><h3>Sports and racing</h3><p>Football, racing and similar simulations. Easy to pick up and great for playing with friends.</p></div>
+      <div class="box"><h3>Simulation and building</h3><p>Run a farm, build a town or design a park. Creative, relaxed and open-ended.</p></div>
+    </div>
+    <h3>How to choose</h3>
+    <ol class="list">
+      <li>Think of a movie, book or hobby you enjoy, and look for a genre with the same mood.</li>
+      <li>Decide how long a session should be: 5 minutes, 30 minutes or an evening.</li>
+      <li>Read several independent reviews, not only the store description.</li>
+      <li>Check whether the game is single-player, local multiplayer or online.</li>
+    </ol>
+  </article>
+
+  <article class="section" id="tabletop">
+    <h2>Board games and card games</h2>
+    <p>Tabletop games are a simple way to spend time together without screens. They teach turn-taking, planning and good sportsmanship.</p>
+    <h3>Classic games for beginners</h3>
+    <ul class="list">
+      <li><strong>Chess:</strong> two players, 16 pieces each, and the aim is to checkmate the opposing king. It builds planning and concentration.</li>
+      <li><strong>Ludo:</strong> a family race game where players move four tokens around the board based on dice rolls.</li>
+      <li><strong>Snakes and ladders:</strong> a luck-based game that is ideal for young children.</li>
+      <li><strong>Uno and similar card games:</strong> match colours or numbers and be first to empty your hand.</li>
+      <li><strong>Scrabble and word games:</strong> improve vocabulary and spelling while having fun.</li>
+    </ul>
+    <h3>Hosting a game night</h3>
+    <p>Choose a game everyone can learn in ten minutes, keep rules short, and agree on house rules before starting. Rotate who picks the game so that everyone feels included. Snacks and good lighting help more than you might expect.</p>
+  </article>
+
+  <div class="ad" aria-label="Advertisement">
+    <small>Advertisement</small>
+    <!-- ===== ADSENSE AD UNIT 2: yahan apna ad code paste karein ===== -->
+    <!--
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="2222222222" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    -->
+    <div class="slot">Ad space</div>
+  </div>
+
+  <article class="section" id="healthy">
+    <h2>Healthy play habits</h2>
+    <p>Games are fun, and a few simple habits keep them that way. These are general suggestions, not medical rules.</p>
+    <ul class="list">
+      <li><strong>Take breaks:</strong> stand up, stretch and look at something far away every 30 to 60 minutes.</li>
+      <li><strong>Sit well:</strong> keep your back supported, feet flat and the screen at roughly eye level.</li>
+      <li><strong>Protect sleep:</strong> stop playing at least an hour before bed so your mind can settle.</li>
+      <li><strong>Stay active:</strong> balance screen time with movement, outdoor time and friends.</li>
+      <li><strong>Drink water:</strong> keep a bottle nearby instead of relying on sugary drinks.</li>
+    </ul>
+    <div class="box tip"><strong>Good to know:</strong> if play starts to interfere with school, work, sleep or relationships, or you feel unable to stop, talk to someone you trust or a qualified health professional.</div>
+  </article>
+
+  <article class="section" id="safety">
+    <h2>Online safety and a parent guide</h2>
+    <p>Many games let players chat, trade items and spend money. Families can reduce risk with a few clear steps.</p>
+    <h3>For parents and guardians</h3>
+    <ol class="list">
+      <li>Use the built-in parental controls on consoles, phones and stores to set age limits, spending limits and play-time limits.</li>
+      <li>Play together at first so you understand what your child is doing.</li>
+      <li>Turn off or restrict chat with strangers for younger children.</li>
+      <li>Explain that real people are behind usernames, and that personal details should never be shared.</li>
+      <li>Keep a regular conversation open so your child feels safe telling you about anything uncomfortable.</li>
+    </ol>
+    <h3>For all players</h3>
+    <ul class="list">
+      <li>Use a strong, unique password and enable two-step verification.</li>
+      <li>Download games only from official stores to avoid fake or harmful copies.</li>
+      <li>Be careful with links and "free gift" offers, which are often scams.</li>
+      <li>Report and block players who are abusive.</li>
+    </ul>
+    <p>Playcentral does not promote or review gambling, betting or real-money casino games.</p>
+  </article>
+
+  <article class="section" id="faq">
+    <h2>Frequently asked questions</h2>
+    <details>
+      <summary>How much screen time is right for children?</summary>
+      <p>It depends on age and the family's needs. Health organisations suggest limiting recreational screen time for young children and keeping a balance with sleep, school and physical activity. Ask your paediatrician for advice about your child.</p>
+    </details>
+    <details>
+      <summary>Do I need an expensive device to enjoy games?</summary>
+      <p>No. Many excellent puzzle, strategy and indie games run on ordinary phones and computers, and tabletop games need no electronics at all.</p>
+    </details>
+    <details>
+      <summary>Are in-app purchases necessary?</summary>
+      <p>Usually not. Many games are fully playable without spending. Set a spending limit or require a password for purchases to avoid surprises.</p>
+    </details>
+    <details>
+      <summary>Does Playcentral host games or sell anything?</summary>
+      <p>No. Playcentral is an informational website only. We do not host or sell games.</p>
+    </details>
+  </article>
+
+  <article class="section" id="about">
+    <h2>About Playcentral</h2>
+    <p>Playcentral was created to give players and families a clear, friendly and trustworthy starting point for the world of games. We write original articles, avoid exaggerated claims, and update pages when we find mistakes or better information.</p>
+    <p>Questions, corrections or suggestions are welcome. Email us at <a href="mailto:contact@YOURDOMAIN.com">contact@YOURDOMAIN.com</a>.</p>
+  </article>
+
+  <section class="disclaimer" id="disclaimer" aria-labelledby="disc-title">
+    <h2 id="disc-title">Disclaimer</h2>
+    <p>The content on Playcentral is provided for general information and entertainment purposes only. It is not medical, psychological, legal or professional advice. Consult a qualified professional for concerns about health, wellbeing or safety.</p>
+    <p>Game names, ratings and platform details change often. We try to keep our information accurate and current but make no guarantee of completeness. You use the information at your own risk, and Playcentral is not liable for any loss or damage arising from it.</p>
+    <p>Playcentral is not affiliated with any game publisher or platform. All trademarks belong to their respective owners. External links and advertisements, including those served by third-party networks such as Google AdSense, are shown for convenience, are clearly labelled, and we are not responsible for their content.</p>
+  </section>
+
+</div>
+
+<aside>
+  <div class="sticky">
+    <div class="box">
+      <h3>On this page</h3>
+      <ul>
+        <li><a href="#start">Getting started</a></li>
+        <li><a href="#genres">Game genres</a></li>
+        <li><a href="#tabletop">Board &amp; card games</a></li>
+        <li><a href="#healthy">Healthy play</a></li>
+        <li><a href="#safety">Online safety</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#disclaimer">Disclaimer</a></li>
+      </ul>
+    </div>
+    <div class="ad">
+      <small>Advertisement</small>
+      <!-- ===== ADSENSE AD UNIT 3 (sidebar): yahan apna ad code paste karein ===== -->
+      <div class="slot" style="min-height:250px">Ad space</div>
+    </div>
+  </div>
+</aside>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <h4>Playcentral</h4>
+        <p>Independent information about video games, board games and safe, healthy play. Educational content only.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#start">Getting started</a></li>
+          <li><a href="#genres">Game genres</a></li>
+          <li><a href="#tabletop">Board &amp; card games</a></li>
+          <li><a href="#safety">Online safety</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <!-- Apne pages ke sahi link yahan lagayein -->
+          <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="/terms.html">Terms and Conditions</a></li>
+          <li><a href="#disclaimer">Disclaimer</a></li>
+          <li><a href="#about">About / Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copy">&copy; <span id="yr">2026</span> Playcentral. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
